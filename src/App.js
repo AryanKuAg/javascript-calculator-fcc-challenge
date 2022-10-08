@@ -61,7 +61,7 @@ function App() {
   }
 
   function cal(value) {
-    if(value == "AC"){
+    if(value === "AC"){
       setUp("")
       setDown('0')
     }
